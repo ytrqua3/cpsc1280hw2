@@ -1,5 +1,5 @@
-mkdir question1
-cd question1
+mkdir test_question1
+cd test_question1
 
 mkdir BTS Kep1er RED_VELVET TXT
 chmod 775 BTS RED_VELVET TXT
@@ -13,15 +13,8 @@ chmod 775 Butter Dynamite COLD_PLAY Idol
 chmod 755 Dna
 chmod 664 file1.txt file2.txt file3.txt
 
-cd Dna
-touch fileA.txt fileB.txt fileC.txt
-chmod 664 *
-cd ..
-
-
 cd Butter
-touch fileC.txt milk.txt
-ln ../Dna/fileA.txt oil.txt
+touch fileC.txt milk.txt oil.txt
 chmod 664 *
 cd ..
 
@@ -29,12 +22,16 @@ cd COLD_PLAY
 mkdir Universe
 chmod 775 Universe
 cd Universe
-touch  mars.txt venus.txt
-ln ../../Butter/milk.txt Jupiter.txt
+touch Jupiter.txt mars.txt venus.txt
 chmod 664 *
 cd ..
 cd ..
 chmod 555 COLD_PLAY
+
+cd Dna
+touch fileA.txt fileB.txt fileC.txt
+chmod 664 *
+cd ..
 
 cd Dynamite
 touch KingKong.txt
@@ -88,4 +85,4 @@ touch song.txt
 chmod 664 song.txt
 cd ..
 
-cd ..
+
