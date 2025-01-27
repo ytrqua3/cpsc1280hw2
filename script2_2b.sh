@@ -1,1 +1,1 @@
-find -perm 002 -type f -print|tee /dev/tty|xargs chmod o-w
+find . -perm -o=w -printf "%P\n" -exec chmod o-w {} +;

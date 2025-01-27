@@ -1,1 +1,1 @@
-find . -name "*me*" -type f
+find . -type f -name "*me*" -printf "%P\n"

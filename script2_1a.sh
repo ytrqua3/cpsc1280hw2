@@ -1,15 +1,16 @@
 mkdir question1
 cd question1
 
-mkdir BTS Ke1per RED_VELVET TXT
+mkdir BTS Kep1er RED_VELVET TXT
 chmod 775 BTS RED_VELVET TXT
-chmod 705 Ke1per
+chmod 705 Kep1er
 
 
 cd BTS
 mkdir Butter COLD_PLAY Dna Dynamite Idol
 touch file1.txt file2.txt file3.txt
-chmod 775 Butter Dna Dynamite COLD_PLAY Idol
+chmod 775 Butter Dynamite COLD_PLAY Idol
+chmod 755 Dna
 chmod 664 file1.txt file2.txt file3.txt
 
 cd Butter
@@ -33,7 +34,7 @@ chmod 664 *
 cd ..
 
 cd Dynamite
-touch coolshades.txt KngKong.txt
+touch coolshades.txt KingKong.txt
 chmod 664 *
 cd ..
 
@@ -45,7 +46,7 @@ chmod 575 Idol
 cd ..
 
 
-cd Ke1per
+cd Kep1er
 touch test.txt
 chmod 664 test.txt
 cd ..
